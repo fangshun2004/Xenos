@@ -15,7 +15,7 @@
 /// <returns>status</returns>
 int DumpNotifier( const wchar_t* path, void* context, EXCEPTION_POINTERS* expt, bool success )
 {
-    Message::ShowError( NULL, L"Program has crashed. Dump file saved at '" + std::wstring( path ) + L"'" );
+    Message::ShowError( NULL, L"程序已经崩溃。 转储文件已生成在： '" + std::wstring( path ) + L"'" );
     return 0;
 }
 
