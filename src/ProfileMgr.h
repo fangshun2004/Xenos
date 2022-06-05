@@ -16,9 +16,9 @@ public:
         std::wstring initArgs;          // Arguments passed into init function
 
         uint32_t pid = 0;               // Temporary pid for instant injection
-        uint32_t mmapFlags = 0;         // Manual mapping flags
+        uint32_t mmapFlags = 4;         // Manual mapping flags
         uint32_t processMode = 0;       // Process launch mode
-        uint32_t injectMode = 0;        // Injection type
+        uint32_t injectMode = 1;        // Injection type
         uint32_t delay = 0;             // Delay before injection
         uint32_t period = 0;            // Delay between images
         uint32_t skipProc = 0;          // Skip N first processes
