@@ -57,7 +57,7 @@ INT_PTR MainDlg::OnInit(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 
 	// Setup modules view
 	_modules.AddColumn(L"名称", 150, 0);
-	_modules.AddColumn(L"架构", 100, 1);
+	_modules.AddColumn(L"体系结构", 100, 1);
 
 	ListView_SetExtendedListViewStyle(_modules.hwnd(), LVS_EX_FULLROWSELECT | LVS_EX_DOUBLEBUFFER);
 
